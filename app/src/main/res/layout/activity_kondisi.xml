@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.KondisiActivity"
+    android:id="@+id/kantong_activity"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_sampah"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                app:srcCompat="@drawable/icon_sampah" />
+
+            <TextView
+                android:id="@+id/namabarang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/nama_barang"
+                android:textColor="@color/text"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="345dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorKategori">
+
+            <TextView
+                android:id="@+id/kondisi"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/kondisi_barang"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/jumlah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:text="@string/jumlah"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="345dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorList"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:indeterminateDrawable="@drawable/custom_progressbar"
+                >
+            </ProgressBar>
+
+            <LinearLayout
+                android:id="@+id/layout_bagus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/bagus"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bagus"
+                    android:textSize="18sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    style="@style/TextInputLayoutHint">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edt_bagus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:textCursorDrawable="@drawable/cursor_label"
+                        android:text="@string/default_number"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ringan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_bagus"
+                android:layout_marginStart="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/rusakringan"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rusak_ringan"
+                    android:textSize="18sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    style="@style/TextInputLayoutHint">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edt_ringan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:textCursorDrawable="@drawable/cursor_label"
+                        android:text="@string/default_number"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/berat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ringan"
+                android:layout_marginStart="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/rusakberat"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rusak_berat"
+                    android:textSize="18sp" />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    style="@style/TextInputLayoutHint">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edt_berat"
+                        android:inputType="number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textCursorDrawable="@drawable/cursor_label"
+                        android:text="@string/default_number"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/kantong"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/button"
+            android:text="@string/kantong"
+            android:textColor="@color/textputih" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jenis_sampah"
+        android:textSize="35sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorlatar"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical"
+        android:id="@+id/list_sampah">
+            <CheckBox
+                android:id="@+id/plastik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plastik"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="123dp"
+                />
+
+            <CheckBox
+                android:id="@+id/kertas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kertas"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="163dp" />
+
+            <CheckBox
+                android:id="@+id/botol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/botol"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="199dp" />
+
+            <CheckBox
+                android:id="@+id/besi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/besi"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="233dp" />
+
+            <CheckBox
+                android:id="@+id/aluminium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aluminium"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="268dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="13dp">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berat Sampah"
+            android:textSize="20sp"
+            android:layout_marginTop="1dp"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            style="@style/TextInputLayoutHint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/totalberat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kg"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_request"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:background="@color/colorbotton"
+        android:text="@string/kantong"
+        android:textColor="@color/colortext"
+        android:layout_marginEnd="10dp"/>
+
+
+</LinearLayout>

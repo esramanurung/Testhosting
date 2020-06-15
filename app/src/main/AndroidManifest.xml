@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectmppl">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.RiwayatActivity"
+            android:label="Riwayat Transaksi Kupon"
+            android:parentActivityName=".activity.MainActivity"></activity>
+        <activity
+            android:name=".activity.jenissampah.NonOrganikActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="NonOrganik"/>
+        <activity
+            android:name=".activity.KantongActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Kantong"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LoginRegister"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.jenissampah.PerlengkapanRumahTanggaActivity"
+            android:label="Perlengkapan Rumah Tangga"
+            android:parentActivityName=".activity.jenissampah.ElektronikActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.jenissampah.PakaianActivity"
+            android:label="Pakaian"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.KondisiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.jenissampah.KomputerActivity"
+            android:label="Komputer"
+            android:parentActivityName=".activity.jenissampah.ElektronikActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.jenissampah.HandphoneActivity"
+            android:label="Handphone"
+            android:parentActivityName=".activity.jenissampah.ElektronikActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.jenissampah.ElektronikActivity"
+            android:label="Elektronik"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PenukaranKupon"
+            android:label="Kupon"
+            android:parentActivityName=".activity.DaftarKupon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DaftarKupon"
+            android:label="Kupon"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:label="Daftar"
+            android:parentActivityName=".activity.LoginRegister"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="Masuk"
+            android:parentActivityName=".activity.LoginRegister"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

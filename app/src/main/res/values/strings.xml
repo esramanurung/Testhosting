@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Trashy</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="beranda">Beranda</string>
+    <string name="profil">Profil</string>
+    <string name="tentang">Tentang</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="registrasi">Registrasi</string>
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
+    <string name="no_handphone">No.HP</string>
+    <string name="pekerjaan">Pekerjaan</string>
+    <string name="sandi">Kata Sandi</string>
+    <string name="konfirmasi_kata_sandi">Konfirmasi Kata Sandi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_message_name_empty">Nama belum diisi!</string>
+    <string name="error_message_prodi_empty">Prodi belum diisi!</string>
+    <string name="error_message_noHP_empty">No HP belum diisi!</string>
+    <string name="error_message_pekerjaan_empty">Pekerjaan belum diisi!</string>
+    <string name="error_message_username_empty">Username belum diisi!</string>
+    <string name="error_message_password_empty">Password belum diisi!</string>
+    <string name="error_message_confirmPassword_empty">Password belum diisi!</string>
+    <string name="error_message_passwordNotEqual_empty">Password tidak cocok!</string>
+    <string name="logout">Logout</string>
+    <string name="welcome_to_trashy">Welcome to Trashy</string>
+
+    <array name="pekerjaan">
+        <item>Pekerjaan</item>
+        <item>Staf</item>
+        <item>Mahasiswa</item>
+    </array>
+
+    <string name="komputer">Komputer</string>
+    <string name="hp">Handphone</string>
+    <string name="prumah">Perlengkapan Rumah Tangga</string>
+    <string name="pakaian">Pakaian</string>
+
+    <string name="hardisk">Hardisk</string>
+    <string name="mouse">Mouse</string>
+    <string name="pc">PC</string>
+    <string name="speaker">Speaker</string>
+    <string name="keyboard">Keyboard</string>
+    <string name="printer">Printer</string>
+
+    <string name="telepon_seluler">Telepon Seluler</string>
+    <string name="kabeldanCharger">Kabel dan Charger</string>
+    <string name="casing">Casing</string>
+    <string name="memory_card">Memory Card</string>
+    <string name="power_bank">Power Bank</string>
+    <string name="earphone">Earphone</string>
+
+    <string name="tv">TV</string>
+    <string name="kulkas">Kulkas</string>
+    <string name="mesin_cuci">Mesin Cuci</string>
+    <string name="kipas">Kipas</string>
+
+    <string name="kaos">Kaos</string>
+    <string name="kemeja">Kemeja</string>
+    <string name="jaket">Jaket</string>
+    <string name="selimut">Selimut</string>
+    <string name="sepatu">Sepatu</string>
+    <string name="tas">Tas</string>
+
+    <string name="bagus">Bagus</string>
+    <string name="rusak_ringan">Rusak Ringan</string>
+    <string name="rusak_berat">Rusak Berat</string>
+
+    <string name="title_activity_elektronik">Elektronik</string>
+    <string name="title_beranda">Beranda</string>
+    <string name="title_riwayat">Riwayat</string>
+    <string name="title_profil">Profil</string>
+    <string name="title_tentang">Tentang</string>
+    <string name="title_activity_tentang">Tentang</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_isitentang">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</string>
+    <string name="title_activity_nonorganik">Nonorganik</string>
+    <string name="title_activity_komputer">Komputer</string>
+    <string name="title_activity_elektronik1">Elektronik1</string>
+    <string name="title_activity_kantong">kantong</string>
+    <string name="title_activity_kantongantar">Kantongantar</string>
+    <string name="title_activity_kantong_jemput">kantongJemput</string>
+    <string name="kantong1">Non-Organik </string>
+    <string name="kantong11">Total berat : </string>
+    <string name="kantong_poin">Poin : </string>
+    <string name="batal">Batal</string>
+    <string name="metode">Metode</string>
+    <string name="antar">Antar</string>
+    <string name="jemput">Jemput</string>
+    <string name="charger">Charger</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="kondisi">Kondisi</string>
+    <string name="title_activity_profil">profil</string>
+    <string name="poinku">Poin ku</string>
+    <string name="kuponku">Kupon ku</string>
+    <string name="title_activity_norganik">Norganik</string>
+    <string name="title_activity_non__organik">Non_Organik</string>
+    <string name="default_number">0</string>
+    <string-array name="lokasi">
+        <item>Lokasi</item>
+        <item>GD 9</item>
+        <item>GD 5</item>
+        <item>GD 7</item>
+        <item>Post Satpam</item>
+        <item>Kantin Lama</item>
+    </string-array>
+    <string name="tentang_info">Trashy adalah platform yang bertujuan sebagai sarana dalam pengumpulan sampah dilingkungan kampus Institut Teknologi Del.
+        Aplikasi ini menghubungkan penukar sampah (mahasiswa, dosen/staff) dengan kolektor agen sampah yang ada dilingkungan kampus agar lebih mudah
+        melakukan transaksi sampah, seperti sampah non organik, pakaian, dan elektronik.Melakukan permintaan penukaran di aplikasi, ada pilihan untuk dijemput
+        dan diantar, kolektor terdekat akan menjemput dan membayar sampahmu dalam bentuk poin.
+        Kumpulkan poin sebanyak mungkin dan tukarkan dengan berbagai jenis kupon menarik yang ada.</string>
+    <string name="pilih_sampah_yang_ingin_ditukar">Pilih sampah yang ingin ditukar:</string>
+    <string name="kondisi_barang">Kondisi Barang</string>
+    <string name="kantong">Kantong</string>
+    <string name="e_mail">E-mail</string>
+    <string name="kata_sandi">Kata Sandi</string>
+    <string name="masuk">Masuk</string>
+    <string name="daftar">Daftar</string>
+    <string name="jenis_sampah">Jenis Sampah</string>
+    <string name="plastik">Plastik</string>
+    <string name="kertas">Kertas</string>
+    <string name="botol">Botol</string>
+    <string name="besi">Besi</string>
+    <string name="aluminium">Aluminium</string>
+    <string name="kg">Kg</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="laki_laki">Laki-Laki</string>
+    <string name="mari_jaga_lingkungan">Mari Jaga Lingkungan</string>
+    <string name="_0">0</string>
+    <string name="tukar_sampah">Tukar Sampah</string>
+    <string name="non_organik">Non Organik</string>
+    <string name="elektronik">Elektronik</string>
+    <string name="masukkan_lokasi">Masukkan lokasi</string>
+    <string name="tambahkan_gambar">Tambahkan gambar</string>
+    <string name="tanggal">20 Januari 2020</string>
+    <string name="pcs">pcs</string>
+    <string name="poin">Poin</string>
+    <string name="total_berat">Total berat</string>
+    <string name="total_poin">Poin</string>
+    <string name="request">Request</string>
+    <string name="nama_barang">Nama Barang</string>
+    <string name="image_kupon">image Kupon</string>
+    <string name="PostiveYesButton">Ya</string>
+    <string name="NegativeNoButton">Tidak</string>
+    <string name="ClearCookies">Konfirmasi</string>
+    <string name="ClearCookieQuestion">Apakah anda ingin keluar?</string>
+
+
+</resources>

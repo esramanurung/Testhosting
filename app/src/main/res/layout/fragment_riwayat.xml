@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragment.RiwayatFragment"
+    android:layout_marginBottom="60dp">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <com.google.android.material.appbar.AppBarLayout
+           android:layout_width="match_parent"
+           android:layout_height="53dp"
+           android:background="#2DBB54"
+           android:id="@+id/appbar">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="@string/riwayat"
+               android:textSize="40sp"
+               android:layout_marginLeft="10dp">
+           </TextView>
+       </com.google.android.material.appbar.AppBarLayout>
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/rv_riwayat"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           tools:itemCount="7"
+           tools:listitem="@layout/item_riwayat"
+           android:layout_below="@+id/appbar"></androidx.recyclerview.widget.RecyclerView>
+       <ProgressBar
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/progress"
+           android:indeterminateDrawable="@drawable/custom_progressbar"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="90dp"></ProgressBar>
+
+
+   </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/antar"
+        android:id="@+id/action_antar"
+        android:title="Antar"
+        />
+    <item
+        android:id="@+id/action_jemput"
+        android:icon="@drawable/home"
+        android:title="@string/jemput"
+        />
+</menu>

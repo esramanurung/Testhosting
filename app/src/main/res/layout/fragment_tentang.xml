@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.TentangFragment">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#2DBB54"
+        android:id="@+id/appbar">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tentang"
+            android:textSize="40sp"
+            android:layout_marginLeft="10dp"></TextView>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/tentang_info"
+        android:textColor="@color/text"
+        android:layout_below="@+id/appbar"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/opensans_regular"
+               />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorKategori">#A2EF5F</color>
+    <color name="colorList">#C1DFC3</color>
+    <color name="text">#000000</color>
+    <color name="button">#276aba</color>
+    <color name="textputih">#ffffff</color>
+
+    <color name="colorbuttonatas">#2DBB54</color>
+    <color name="colorlatar">#C1DFC3</color>
+    <color name="colorbotton">#276ABA</color>
+    <color name="colorview">#A2EF5F</color>
+    <color name="colortext">#ffffff</color>
+    <color name="hijaukotak">#8FBC8F</color>
+    <color name="merahbutton">#FA8072</color>
+    <color name="birubutton">#87CEFA</color>
+    <color name="hijaubutton">#90EE90</color>
+</resources>
